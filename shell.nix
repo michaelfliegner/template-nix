@@ -9,6 +9,8 @@ mkShell {
     postgresql
     ghc
     cabal2nix
+    cabal-install
+    hlint
   ];
 
   NIX_ENFORCE_PURITY = true;
