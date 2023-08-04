@@ -10,6 +10,7 @@ mkShell {
     cabal2nix
     cabal-install
     hlint
+    postgresql
   ];
 
   NIX_ENFORCE_PURITY = true;
