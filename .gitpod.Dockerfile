@@ -37,4 +37,4 @@ RUN . /home/gitpod/.nix-profile/etc/profile.d/nix.sh \
 
 # Install postgres
 RUN . /home/gitpod/.nix-profile/etc/profile.d/nix.sh \
-  && nix-env -i postgres
+  && nix-env -i postgresql
